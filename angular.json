@@ -87,10 +87,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "repo": "https://github.com/ari-rm21/emails-portfolio.git",
-            "silent": false
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
