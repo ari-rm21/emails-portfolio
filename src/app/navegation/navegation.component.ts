@@ -9,7 +9,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './navegation.component.scss'
 })
 export class NavegationComponent {
-  title = 'EMAILS PORTFOLIO';
+  title = 'ARM EMAILS PORTFOLIO';
   menuOpen: boolean = false;
   toggleMenu(event: Event) {
     this.menuOpen = !this.menuOpen;
