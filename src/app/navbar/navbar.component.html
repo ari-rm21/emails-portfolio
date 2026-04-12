@@ -1,0 +1,19 @@
+<header class="nav">
+  <a routerLink="/" class="brand">{{ 'brand' | translate }}</a>
+
+  <button class="menu-toggle" (click)="isOpen = !isOpen" aria-label="Toggle menu">
+    ☰
+  </button>
+
+  <nav class="links" [class.open]="isOpen">
+    <a href="https://arianarodriguez-website.netlify.app/">{{ 'nav.home' | translate }}</a>
+    <a href="https://arianarodriguez-website.netlify.app/sobre-mi">{{ 'nav.about' | translate }}</a>
+    <a href="https://arianarodriguez-website.netlify.app/experiencia">{{ 'nav.experience' | translate }}</a>
+    <a href="https://arianarodriguez-website.netlify.app/proyectos" >{{ 'nav.projects' | translate }}</a>
+    <div class="lang">
+      <select [value]="currentLang" (change)="switchLang($any($event.target).value)">
+        <option *ngFor="let l of langs" [value]="l">{{ l.toUpperCase() }}</option>
+      </select>
+    </div>
+  </nav>
+</header>

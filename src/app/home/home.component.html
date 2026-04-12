@@ -1,14 +1,56 @@
-<section class="container">
-   <div class="container__content">
-    <h1 class="container__title">Welcome to my Emails porftolio</h1>
-    <p class="container__text">
-        Hello everyone, here you can take a look of some of my email development&nbsp;work 🚀       
+<section class="hero">
+  <div class="hero__content">
+    <span class="hero__badge">HTML5 • CSS • Email Development</span>
+    <h1 class="hero__title">HTML5 Emails Portfolio</h1>
+    <p class="hero__text">
+      Responsive HTML5 email development optimized for consistent rendering across major clients like Gmail, Outlook, and Apple Mail.
     </p>
-    <div class="button_wrapper">
-        <a class="button_wrapper__link" href="https://arianarodriguez-website.netlify.app/">Go back</a>
+
+    <div class="hero__actions">
+      <a
+        class="hero__button hero__button--ghost"
+        href="https://arianarodriguez-website.netlify.app/proyectos"
+      >
+        Back to Projects
+      </a>
     </div>
-   </div>
-   <div class="container__img">
-    <img src="assets/images/email_img.jpg" alt="image code">
-   </div>
+  </div>
+</section>
+
+<section class="showcase">
+  <div class="showcase__header">
+    <h2 class="showcase__title">Featured Emails</h2>
+    <p class="showcase__subtitle">
+      Click on any Email to open the live piece.
+    </p>
+  </div>
+
+  <div class="banner-grid">
+    <article class="banner-card" *ngFor="let banner of banners">
+      <a class="banner-card__image-link" [routerLink]="banner.route">
+        <img
+          class="banner-card__image"
+          [src]="banner.image"
+          [alt]="banner.title"
+        />
+      </a>
+
+      <div class="banner-card__body">
+        <div class="banner-card__top">
+          <h3 class="banner-card__title">{{ banner.title }}</h3>
+          <span class="banner-card__size">{{ banner.size }}</span>
+        </div>
+
+        <p class="banner-card__text">{{ banner.description }}</p>
+
+        <div class="banner-card__tags">
+          <span *ngFor="let tag of banner.tags">{{ tag }}</span>
+        </div>
+
+        <a class="banner-card__button" [href]="banner.route">
+          View Emails
+        </a>
+      </div>
+    </article>
+  </div>
 </section>

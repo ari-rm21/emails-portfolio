@@ -1,0 +1,163 @@
+{
+  "brand": "ARM",
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos"
+  },
+ "home": {
+  "title": "Hola! Soy {{name}}",
+  "subtitle": "Desarrolladora Frontend enfocada en rendimiento, animaciones y experiencias de marketing",
+  "text": "Construyo experiencias digitales de alto rendimiento para marcas globales utilizando HTML, CSS, JavaScript y herramientas modernas.",
+  "cta": "Ver proyectos",
+  "typewriter": "🚀 Interfaces rápidas • Anuncios interactivos • Desarrollo de Newsletters"
+},
+  "about": {
+    "title": "Sobre mí",
+    "long": "<p>Desarrolladora Front-End con más de 5 años de experiencia creando experiencias web interactivas y responsivas. Especializada en HTML5, CSS3 y JavaScript, con un fuerte enfoque en animaciones, banners HTML5 y desarrollo de emails.</p><p>Experiencia trabajando con tecnologías de marketing digital como AEM, Salesforce Marketing Cloud, Marketo Engage y ON24, gestionando assets de campañas, integraciones y flujos de datos.</p><p>Apasionada por crear interfaces de alto rendimiento, combinando diseño, desarrollo y marketing para ofrecer soluciones digitales atractivas y efectivas.</p>",
+    "skills": {
+      "title": "Habilidades",
+      "categories": [
+        {
+          "name": "Front-end",
+          "items": [
+            "Angular",
+            "TypeScript",
+            "HTML5",
+            "CSS / SCSS",
+            "WebSockets",
+            "Bootstrap"
+          ]
+        },
+        {
+          "name": "Animación / UI",
+          "items": ["Banner ads", "GSAP", "After Effects", "Performance"]
+        },
+        {
+          "name": "Email Development",
+          "items": [
+            "HTML5 Responsive Emails",
+            "Modo Oscuro",
+            "Outlook fixes (VML fixes)",
+            "Pruebas (Email on Acid / Litmus)"
+          ]
+        },
+           {
+          "name": "Marketing & Platforms",
+          "items": [
+            "AEM",
+            "Salesforce Marketing Cloud",
+            "Marketo Engage",
+            "ON24",
+            "Veeva Vault",
+            "Data & Integrations",
+            "Google Campaign Manager (DoubleClick)"
+          ]
+        },
+        {
+          "name": "Herramientas",
+          "items": [
+            "Git / GitHub / GitLab",
+            "Node / NPM",
+            "Webpack / Vite",
+            "Figma / Sketch",
+            "Adobe Creative Suite",
+            " Jira"
+          ]
+        }
+      ]
+    }
+  },
+  "experience": {
+    "title": "💼 Experiencia",
+    "items": [
+      {
+        "role": " Web Developer Analyst",
+        "company": "Accenture",
+        "period": "Noviembre 2024 — Actualmente",
+        "desc": "&bull; Soporte a estrategias de marketing digital mediante gestión de eventos, datos y herramientas tecnológicas<br>&bull; Desarrollo de webinars corporativos enfocados en generación de leads y engagement de usuarios<br>&bull; Configuración, testing y soporte técnico durante eventos en vivo, asegurando una experiencia fluida<br>&bull; Capacitación a usuarios y equipos internos en el uso de ON24<br>&bull; Creación y gestión de leads en CRM, asegurando calidad y correcta segmentación de datos<br>&bull; Análisis de datos con Excel para optimizar campañas y mejorar tasas de conversión<br>&bull; Colaboración con equipos de marketing y tecnología en iniciativas digitales<br>"
+      },
+      {
+        "role": " Interactive Developer — Freelance",
+        "company": "Cloud Forest Studio",
+        "period": "Febrero 2023 — Actualmente",
+        "desc": "&bull; Desarrollo de banners HTML5 interactivos para campañas digitales (ads, display, rich media)<br> &bull; Creación de emails responsive (HTML email) optimizados para diferentes clientes de correo<br>&bull; Implementación de animaciones y microinteracciones utilizando JavaScript y CSS<br>&bull; Optimización de peso y performance para cumplir estándares de plataformas publicitarias<br>&bull; Adaptación de piezas a múltiples formatos y resoluciones (multi-size ads)<br> "
+      },
+      {
+        "role": " Front-end Developer",
+        "company": "Prose on Pixels",
+        "period": "Diciembre 2020 — Agosto 2024",
+        "desc": "&bull; Desarrollo de emails HTML5 responsive y banners interactivos, cumpliendo estándares de la industria y compatibilidad cross-client<br> &bull; Implementación de animaciones y microinteracciones utilizando JavaScript y librerías como GSAP<br>&bull; Mantenimiento y optimización de landing pages, mejorando rendimiento y experiencia de usuario<br>&bull; Soporte y desarrollo en aplicaciones de escritorio utilizando Electron<br>&bull; Colaboración en proyectos frontend utilizando Angular para la construcción de interfaces dinámicas<br>&bull; Gestión de versiones y colaboración en equipo mediante GitHub<br>&bull; Mantenimiento y actualización de contenido en Drupal CMS<br>&bull; Trabajo en conjunto con equipos de diseño y desarrollo para asegurar consistencia visual y funcional<br>"
+      }
+    ]
+  },
+  "projects": {
+  "title": "🗂️ Proyectos",
+  "text": "Selección de proyectos enfocados en desarrollo front-end, animación, experiencias interactivas y tecnologías de marketing digital.",
+  "featuredLabel": "Destacados",
+  "featuredTitle": "Proyectos principales",
+  "allTitle": "Más proyectos",
+  "items": [
+    {
+      "title": "Banners HTML5 Animados",
+      "description": "Colección de banners HTML5 animados con GSAP y Google Web Designer, optimizados para rendimiento y plataformas publicitarias.",
+      "tags": ["HTML5", "CSS", "JavaScript", "GSAP", "GWD"],
+      "repo": "https://github.com/ari-rm21/banners-portfolio",
+      "live": "https://arm-banners-portfolio.netlify.app/",
+      "image": "",
+      "featured": true
+    },
+    {
+      "title": "Emails HTML5",
+      "description": "Emails responsivos desarrollados con tablas y CSS inline, enfocados en compatibilidad entre clientes de correo.",
+      "tags": ["HTML5", "CSS", "Email"],
+      "repo": "https://github.com/ari-rm21/emails-portfolio",
+      "live": "https://arm-emails-portfolio.netlify.app/",
+      "image": "",
+      "featured": true
+    },
+    {
+      "title": "Chat en Tiempo Real",
+      "description": "Aplicación de chat en tiempo real con Socket.IO y Node.js para comunicación instantánea entre múltiples usuarios.",
+      "tags": ["Socket.IO", "Node.js", "HTML"],
+      "repo": "https://github.com/ari-rm21/chat-socketIO",
+      "live": "",
+      "image": "",
+      "featured": false
+    },
+    {
+      "title": "J&A Select",
+      "description": "Plataforma e-commerce educativa con carrito de compras y diseño responsive, desarrollada para brindar una experiencia de usuario clara y funcional.",
+      "tags": ["HTML", "CSS", "Java Spring Boot", "MySQL", "JavaScript", "Bootstrap"],
+      "repo": "https://github.com/ari-rm21/JYA_proyecto.git",
+      "live": "",
+      "image": "",
+      "featured": false
+    },
+    {
+      "title": "Dragon Ball Z Universe",
+      "description": "Sitio web interactivo inspirado en Dragon Ball Z, desarrollado con HTML, CSS y JavaScript.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "repo": "https://github.com/ari-rm21/dbz-universe.git",
+      "live": "https://ari-rm21.github.io/dbz-universe/",
+      "image": "",
+      "featured": false
+    },
+    {
+      "title": "Omnifood",
+      "description": "Sitio web responsive desarrollado con HTML5 y CSS3, enfocado en maquetación moderna y diseño adaptable.",
+      "tags": ["HTML5", "CSS3"],
+      "repo": "https://github.com/ari-rm21/Omnifood_exampleWebsite",
+      "live": "https://ari-rm21.github.io/Omnifood_exampleWebsite/",
+      "image": "",
+      "featured": false
+    }
+  ],
+  "empty": "Más proyectos pronto."
+},
+"card": {
+  "view": "Ver repo",
+  "live": "Ver demo"
+}
+}
